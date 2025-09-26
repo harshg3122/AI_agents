@@ -3,5 +3,6 @@
   "framework": "nextjs",
   "buildCommand": "npm install && next build",
   "installCommand": "npm install",
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "rootDirectory": "."
 }
