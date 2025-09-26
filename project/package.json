@@ -69,8 +69,5 @@
     "typescript": "5.2.2",
     "vaul": "^0.9.9",
     "zod": "^4.1.11"
-  },
-  "devDependencies": {
-    "@next/swc-win32-x64-msvc": "^15.5.4"
   }
 }
