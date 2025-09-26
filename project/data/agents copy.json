@@ -1,0 +1,5080 @@
+[
+  {
+    "id": "agt_1-generate-application-copy",
+    "name": "1. Generate Application Copy",
+    "oneLiner": "Sales & CRM Ops: 1. Generate Application Copy",
+    "categories": [
+      "Sales & CRM Ops",
+      "Social & Content Marketing"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI"
+    ],
+    "tags": [
+      "application",
+      "copy",
+      "generate",
+      "openai",
+      "sales",
+      "social"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/0bc9c9d837a37988cc63152fcb1384a6.json"
+  },
+  {
+    "id": "agt_1-li-connection-request-system-trigger-phantombuster-agent",
+    "name": "1. LI Connection Request System: Trigger PhantomBuster Agent",
+    "oneLiner": "Lead Gen & Prospecting workflow built in n8n.",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "connection",
+      "data etl",
+      "google sheets",
+      "http",
+      "lead gen",
+      "openai",
+      "phantombuster",
+      "request",
+      "social",
+      "system",
+      "trigger"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/9e779de8231297f24e1dc592b233e83c.json"
+  },
+  {
+    "id": "agt_2-n8n-concepts-json-data-logic-ai",
+    "name": "2. N8N Concepts (JSON, Data, Logic, & AI)",
+    "oneLiner": "Email Outreach: 2. N8N Concepts (JSON, Data, Logic, & AI)",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "concepts",
+      "data",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "http",
+      "internal notifications",
+      "json",
+      "logic",
+      "n8n",
+      "openai",
+      "social",
+      "webhooks"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/e99944dbc3912333f968e302c4f7e255.json"
+  },
+  {
+    "id": "agt_3-n8n-examples",
+    "name": "3 N8N Examples",
+    "oneLiner": "Sales & CRM Ops: 3 N8N Examples",
+    "categories": [
+      "Sales & CRM Ops",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI"
+    ],
+    "tags": [
+      "calendars",
+      "email outreach",
+      "examples",
+      "gmail",
+      "n8n",
+      "openai",
+      "sales",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/e38e15af289da184cc0197f59b4dc0da.json"
+  },
+  {
+    "id": "agt_ad-agency-in-a-box",
+    "name": "Ad Agency in a box",
+    "oneLiner": "Social & Content Marketing: Ad Agency in a box",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "agency",
+      "airtable",
+      "analytics",
+      "box",
+      "calendars",
+      "data etl",
+      "devops",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "openai",
+      "social",
+      "webhooks"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/9272ff9c3447f262c899b4878d612ce5.json"
+  },
+  {
+    "id": "agt_agent-nodes",
+    "name": "Agent Nodes",
+    "oneLiner": "Lead Gen & Prospecting: Agent Nodes",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "OpenAI",
+      "Slack"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "data etl",
+      "image / video generation",
+      "internal notifications",
+      "lead gen",
+      "nodes",
+      "openai",
+      "slack",
+      "social"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c9237cb68db560aa259b777aa236a842.json"
+  },
+  {
+    "id": "agt_ai-agent",
+    "name": "AI Agent",
+    "oneLiner": "Email Outreach: AI Agent",
+    "categories": [
+      "Email Outreach",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "openai"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c3b31dfaf9a2e91121ee94ff8049ab80.json"
+  },
+  {
+    "id": "agt_ai-agent-1",
+    "name": "AI Agent 1",
+    "oneLiner": "Uncategorized: AI Agent 1",
+    "categories": [
+      "Uncategorized"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "openai",
+      "uncategorized"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/f706c53dd9eeab38139fe7b51ff3a88b.json"
+  },
+  {
+    "id": "agt_ai-agent-clone",
+    "name": "AI Agent Clone",
+    "oneLiner": "Social & Content Marketing: AI Agent Clone",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "agent",
+      "chatbots",
+      "clone",
+      "http",
+      "image / video generation",
+      "openai",
+      "social",
+      "telegram"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/2196d975a2d4b5730694a077ff7f4056.json"
+  },
+  {
+    "id": "agt_ai-agent-web-scraping",
+    "name": "AI Agent Web Scraping",
+    "oneLiner": "Lead Gen & Prospecting: AI Agent Web Scraping",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "data etl",
+      "lead gen",
+      "openai",
+      "scraping",
+      "social",
+      "web"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/1897bc91d6e0c7d320ee6bb3b97098e9.json"
+  },
+  {
+    "id": "agt_ai-agents-vs-ai-workflow",
+    "name": "AI Agents Vs AI Workflow",
+    "oneLiner": "Email Outreach: AI Agents Vs AI Workflow",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "OpenAI"
+    ],
+    "tags": [
+      "agents",
+      "customer support",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "internal notifications",
+      "openai",
+      "social",
+      "workflow"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/d2f75995bfa91a4480accae83b920d45.json"
+  },
+  {
+    "id": "agt_ai-avatar-for-trending-news",
+    "name": "AI Avatar for Trending News",
+    "oneLiner": "Social & Content Marketing: AI Avatar for Trending News",
+    "categories": [
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "avatar",
+      "calendars",
+      "customer support",
+      "devops",
+      "for",
+      "http",
+      "image / video generation",
+      "news",
+      "openai",
+      "social",
+      "trending",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/1ff95b011c96b243480711d618df0078.json"
+  },
+  {
+    "id": "agt_ai-facebook-ad-spy-tool",
+    "name": "AI Facebook Ad Spy Tool",
+    "oneLiner": "Social & Content Marketing: AI Facebook Ad Spy Tool",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation",
+      "HR & Recruiting"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "analytics",
+      "chatbots",
+      "data etl",
+      "facebook",
+      "google sheets",
+      "hr",
+      "http",
+      "image / video generation",
+      "openai",
+      "social",
+      "spy",
+      "tool"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/a7ca435709ec863b39a9432607cfce1f.json"
+  },
+  {
+    "id": "agt_ai-faceless-shorts-template",
+    "name": "AI Faceless Shorts Template",
+    "oneLiner": "Email Outreach: AI Faceless Shorts Template",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "devops",
+      "email outreach",
+      "faceless",
+      "gmail",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "openai",
+      "shorts",
+      "social",
+      "template",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/da5f7f00d9bfa75b9d8156a791cbd275.json"
+  },
+  {
+    "id": "agt_ai-fine-tuning-using-jsonl",
+    "name": "AI Fine Tuning using JSONL",
+    "oneLiner": "Social & Content Marketing: AI Fine Tuning using JSONL",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "HR & Recruiting",
+      "DevOps & Monitoring",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "airtable",
+      "data etl",
+      "devops",
+      "fine",
+      "hr",
+      "http",
+      "internal notifications",
+      "jsonl",
+      "openai",
+      "social",
+      "tuning",
+      "using",
+      "webhooks"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/a75ce69467ea163df4fd26e9b1e2b63a.json"
+  },
+  {
+    "id": "agt_ai-graphic-designer",
+    "name": "AI Graphic Designer",
+    "oneLiner": "Customer Support & Helpdesk: AI Graphic Designer",
+    "categories": [
+      "Customer Support & Helpdesk",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "customer support",
+      "designer",
+      "graphic",
+      "http",
+      "image / video generation",
+      "openai"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/efdb70e9fa6ab3c9bb5cfd94c4f6f500.json"
+  },
+  {
+    "id": "agt_ai-imggen",
+    "name": "AI ImgGen",
+    "oneLiner": "Social & Content Marketing: AI ImgGen",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "data etl",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "imggen",
+      "openai",
+      "social"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/7de966afa949af8c02f02a781ab7c737.json"
+  },
+  {
+    "id": "agt_ai-marketing-team",
+    "name": "AI Marketing Team",
+    "oneLiner": "Social & Content Marketing: AI Marketing Team",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Image / Video Generation",
+      "HR & Recruiting"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Telegram",
+      "YouTube"
+    ],
+    "tags": [
+      "chatbots",
+      "hr",
+      "image / video generation",
+      "marketing",
+      "openai",
+      "social",
+      "team",
+      "telegram",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/ab37a90ea7b7e39b7bf4df8a773909ce.json"
+  },
+  {
+    "id": "agt_ai-posts-content-machine",
+    "name": "AI Posts Content Machine",
+    "oneLiner": "Social & Content Marketing: AI Posts Content Machine",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "calendars",
+      "claude",
+      "content",
+      "data etl",
+      "devops",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "machine",
+      "openai",
+      "posts",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/76753ea168a8920b1361a4ff76d58552.json"
+  },
+  {
+    "id": "agt_ai-proposal-generator-system",
+    "name": "AI Proposal Generator System",
+    "oneLiner": "Email Outreach: AI Proposal Generator System",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "HR & Recruiting",
+      "Finance & Invoicing"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "email outreach",
+      "finance",
+      "generator",
+      "gmail",
+      "hr",
+      "http",
+      "openai",
+      "proposal",
+      "social",
+      "system"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/cd6f94bf798d405522570e1cf0874a57.json"
+  },
+  {
+    "id": "agt_ai-versus",
+    "name": "AI Versus",
+    "oneLiner": "Social & Content Marketing: AI Versus",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "HR & Recruiting",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "google sheets",
+      "hr",
+      "http",
+      "image / video generation",
+      "openai",
+      "social",
+      "versus",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/9a205872abc3a3f818d985b5d90ca093.json"
+  },
+  {
+    "id": "agt_airtable-ai-agent",
+    "name": "Airtable AI Agent",
+    "oneLiner": "Social & Content Marketing: Airtable AI Agent",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "data etl",
+      "http",
+      "image / video generation",
+      "openai",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/85b777dbd72a5565e3ca3dcbbad4e8ca.json"
+  },
+  {
+    "id": "agt_airtable-sales-agent",
+    "name": "Airtable sales agent",
+    "oneLiner": "Lead Gen & Prospecting: Airtable sales agent",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "DevOps & Monitoring"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "data etl",
+      "devops",
+      "email outreach",
+      "gmail",
+      "lead gen",
+      "openai",
+      "sales",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/6c5492fa5c6b4917eb1d6c24ad4086c3.json"
+  },
+  {
+    "id": "agt_analyze-files-with-gemini",
+    "name": "Analyze files with Gemini",
+    "oneLiner": "Email Outreach: Analyze files with Gemini",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Image / Video Generation",
+      "HR & Recruiting"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "HTTP"
+    ],
+    "tags": [
+      "analyze",
+      "email outreach",
+      "files",
+      "gemini",
+      "gmail",
+      "hr",
+      "http",
+      "image / video generation",
+      "social",
+      "with"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/81ec051efb641c0ef428b29a2005ae73.json"
+  },
+  {
+    "id": "agt_analyze-video",
+    "name": "Analyze Video",
+    "oneLiner": "Social & Content Marketing: Analyze Video",
+    "categories": [
+      "Social & Content Marketing",
+      "Image / Video Generation",
+      "HR & Recruiting"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "YouTube"
+    ],
+    "tags": [
+      "analyze",
+      "hr",
+      "http",
+      "image / video generation",
+      "social",
+      "video",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/b65def799d0be8d3eea4f124edea5990.json"
+  },
+  {
+    "id": "agt_api-calls-in-n8n",
+    "name": "API Calls in n8n",
+    "oneLiner": "Social & Content Marketing: API Calls in n8n",
+    "categories": [
+      "Social & Content Marketing"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "api",
+      "calls",
+      "http",
+      "n8n",
+      "openai",
+      "social",
+      "youtube"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c6d3bede4e6097939397d63e1195022b.json"
+  },
+  {
+    "id": "agt_apify",
+    "name": "Apify",
+    "oneLiner": "Social & Content Marketing: Apify",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "YouTube"
+    ],
+    "tags": [
+      "apify",
+      "data etl",
+      "http",
+      "social",
+      "youtube"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/71f6a1fcac2d4edaf0d1b9cd7f8dd0bb.json"
+  },
+  {
+    "id": "agt_apify-scrape-new-instagram-reels-transcribe-add-to-sheet",
+    "name": "Apify Scrape New Instagram Reels -> Transcribe -> Add to Sheet",
+    "oneLiner": "Social & Content Marketing workflow built in n8n.",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "add",
+      "apify",
+      "calendars",
+      "data etl",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "instagram",
+      "new",
+      "openai",
+      "reels",
+      "scrape",
+      "sheet",
+      "social",
+      "transcribe"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/38579f0c92901102bb97407de7f317b4.json"
+  },
+  {
+    "id": "agt_automated-carousels-slideshows-sabrina-ramonov",
+    "name": "Automated Carousels Slideshows | Sabrina Ramonov",
+    "oneLiner": "Social & Content Marketing: Automated Carousels Slideshows | Sabrina Ramonov",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "analytics",
+      "automated",
+      "calendars",
+      "carousels",
+      "data etl",
+      "http",
+      "image / video generation",
+      "openai",
+      "ramonov",
+      "sabrina",
+      "slideshows",
+      "social"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/0720013b8d7cbaa65c630f0f6ca176d4.json"
+  },
+  {
+    "id": "agt_automated-faceless-ai-videos-sabrina-ramonov",
+    "name": "Automated Faceless AI Videos | Sabrina Ramonov",
+    "oneLiner": "Social & Content Marketing: Automated Faceless AI Videos | Sabrina Ramonov",
+    "categories": [
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "automated",
+      "calendars",
+      "chatbots",
+      "customer support",
+      "data etl",
+      "faceless",
+      "http",
+      "image / video generation",
+      "openai",
+      "ramonov",
+      "sabrina",
+      "social",
+      "videos",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/f12faf62ae538ed336a829c6602cee10.json"
+  },
+  {
+    "id": "agt_baby-pods",
+    "name": "Baby Pods",
+    "oneLiner": "Social & Content Marketing: Baby Pods",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "baby",
+      "calendars",
+      "data etl",
+      "devops",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "openai",
+      "pods",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c58d4f100375f05b8f3328f3d9302489.json"
+  },
+  {
+    "id": "agt_chat-with-docs-5minai-new-version",
+    "name": "Chat with docs - 5minAI New version",
+    "oneLiner": "Social & Content Marketing: Chat with docs - 5minAI New version",
+    "categories": [
+      "Social & Content Marketing",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "5minai",
+      "chat",
+      "data etl",
+      "devops",
+      "docs",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "new",
+      "openai",
+      "rag / knowledge search",
+      "social",
+      "version",
+      "webhooks",
+      "with"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/60745bb89944811cebe3b58f8f42cf6a.json"
+  },
+  {
+    "id": "agt_cold-email-live-build",
+    "name": "Cold Email Live Build",
+    "oneLiner": "Lead Gen & Prospecting: Cold Email Live Build",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "build",
+      "cold",
+      "data etl",
+      "email",
+      "email outreach",
+      "google sheets",
+      "http",
+      "lead gen",
+      "live",
+      "openai",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/d1f53435014efedd989b8413a1fc367c.json"
+  },
+  {
+    "id": "agt_content-analyzer-tiktok",
+    "name": "Content Analyzer (Tiktok)",
+    "oneLiner": "Social & Content Marketing: Content Analyzer (Tiktok)",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP"
+    ],
+    "tags": [
+      "airtable",
+      "analyzer",
+      "calendars",
+      "content",
+      "data etl",
+      "http",
+      "image / video generation",
+      "social",
+      "tiktok"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/f0b61848580423142e29efbeda7caa8d.json"
+  },
+  {
+    "id": "agt_copywriting-agent-team",
+    "name": "Copywriting Agent (Team)",
+    "oneLiner": "Email Outreach: Copywriting Agent (Team)",
+    "categories": [
+      "Email Outreach"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "copywriting",
+      "email outreach",
+      "openai",
+      "team"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/4b49c517535d9c30a717e4cb2ab43ec5.json"
+  },
+  {
+    "id": "agt_customer-support-waltart",
+    "name": "Customer Support Waltart",
+    "oneLiner": "Customer Support & Helpdesk: Customer Support Waltart",
+    "categories": [
+      "Customer Support & Helpdesk",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "OpenAI"
+    ],
+    "tags": [
+      "chatbots",
+      "customer",
+      "customer support",
+      "data etl",
+      "google sheets",
+      "openai",
+      "support",
+      "waltart"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/e9fd6501a5ce7ff4002ec5f2b5c0509e.json"
+  },
+  {
+    "id": "agt_deep-multiline-icebreaker-system",
+    "name": "Deep Multiline Icebreaker System",
+    "oneLiner": "Social & Content Marketing: Deep Multiline Icebreaker System",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "data etl",
+      "deep",
+      "google sheets",
+      "http",
+      "icebreaker",
+      "multiline",
+      "openai",
+      "social",
+      "system"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/00d45c4913dadefad5560147642e8a2b.json"
+  },
+  {
+    "id": "agt_deep-research",
+    "name": "Deep Research",
+    "oneLiner": "Email Outreach: Deep Research",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping",
+      "Analytics & Reporting"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "Gmail",
+      "Google Sheets",
+      "HTTP",
+      "YouTube"
+    ],
+    "tags": [
+      "analytics",
+      "claude",
+      "data etl",
+      "deep",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "http",
+      "rag / knowledge search",
+      "research",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/f9d774cd6885b96a69833bde56d0d33a.json"
+  },
+  {
+    "id": "agt_deepseek-r1",
+    "name": "DeepSeek R1",
+    "oneLiner": "Social & Content Marketing: DeepSeek R1",
+    "categories": [
+      "Social & Content Marketing"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "deepseek",
+      "http",
+      "openai",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/7e0c6d763a18f5b67157634be720c0c7.json"
+  },
+  {
+    "id": "agt_deepseek-r1-planning-agents",
+    "name": "DeepSeek R1 Planning Agents",
+    "oneLiner": "Email Outreach: DeepSeek R1 Planning Agents",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Analytics & Reporting",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "agents",
+      "analytics",
+      "calendars",
+      "deepseek",
+      "email outreach",
+      "gmail",
+      "http",
+      "openai",
+      "planning",
+      "social"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/51f539a247f98c413d5a8da92e58e1a9.json"
+  },
+  {
+    "id": "agt_demo-restaurant-agent",
+    "name": "Demo Restaurant Agent",
+    "oneLiner": "RAG / Knowledge Search: Demo Restaurant Agent",
+    "categories": [
+      "RAG / Knowledge Search"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Pinecone"
+    ],
+    "tags": [
+      "agent",
+      "demo",
+      "openai",
+      "pinecone",
+      "rag / knowledge search",
+      "restaurant"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/9c3e0e08438f6a4014151233a0519757.json"
+  },
+  {
+    "id": "agt_dynamic-models",
+    "name": "Dynamic Models",
+    "oneLiner": "Email Outreach: Dynamic Models",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "Slack",
+      "YouTube"
+    ],
+    "tags": [
+      "airtable",
+      "calendars",
+      "data etl",
+      "dynamic",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "http",
+      "internal notifications",
+      "models",
+      "openai",
+      "rag / knowledge search",
+      "slack",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/6fa36aff274e40f9198e716b8c883751.json"
+  },
+  {
+    "id": "agt_email-ai-agent",
+    "name": "Email AI Agent",
+    "oneLiner": "Email Outreach: Email AI Agent",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "HR & Recruiting"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "agent",
+      "analytics",
+      "chatbots",
+      "data etl",
+      "email",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "hr",
+      "openai",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/4ac34e9070e83f644d99ecafef9198ec.json"
+  },
+  {
+    "id": "agt_email-inbox-manager",
+    "name": "Email Inbox Manager",
+    "oneLiner": "Email Outreach: Email Inbox Manager",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Finance & Invoicing",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI",
+      "Slack"
+    ],
+    "tags": [
+      "customer support",
+      "email",
+      "email outreach",
+      "finance",
+      "gmail",
+      "inbox",
+      "internal notifications",
+      "manager",
+      "openai",
+      "slack",
+      "social"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/e12a080c8380999be532122c720ceb72.json"
+  },
+  {
+    "id": "agt_error-logger",
+    "name": "Error Logger",
+    "oneLiner": "Social & Content Marketing: Error Logger",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "Slack",
+      "YouTube"
+    ],
+    "tags": [
+      "data etl",
+      "error",
+      "google sheets",
+      "internal notifications",
+      "logger",
+      "slack",
+      "social",
+      "youtube"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/f80bffe098e9d80f8bbfaa2702fd08f7.json"
+  },
+  {
+    "id": "agt_evaluator-optimizer-hitl",
+    "name": "Evaluator Optimizer & HITL",
+    "oneLiner": "Email Outreach: Evaluator Optimizer & HITL",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "analytics",
+      "chatbots",
+      "customer support",
+      "data etl",
+      "email outreach",
+      "evaluator",
+      "gmail",
+      "hitl",
+      "image / video generation",
+      "openai",
+      "optimizer",
+      "social",
+      "telegram"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/cfc8767d62ddef06751f93e140e874d7.json"
+  },
+  {
+    "id": "agt_expenses-tracker-video",
+    "name": "Expenses Tracker (video)",
+    "oneLiner": "Social & Content Marketing: Expenses Tracker (video)",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "HR & Recruiting",
+      "Finance & Invoicing",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "Slack"
+    ],
+    "tags": [
+      "data etl",
+      "expenses",
+      "finance",
+      "google sheets",
+      "hr",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "slack",
+      "social",
+      "tracker",
+      "video"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/7f735eefa1d141b8a0a3f6d475e6947c.json"
+  },
+  {
+    "id": "agt_faceless-shorts-system-v2",
+    "name": "Faceless Shorts System V2",
+    "oneLiner": "Email Outreach: Faceless Shorts System V2",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "devops",
+      "email outreach",
+      "faceless",
+      "gmail",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "openai",
+      "shorts",
+      "social",
+      "system",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/2d8268a4066c88b89cb3fb43374e3b3b.json"
+  },
+  {
+    "id": "agt_faceless-youtube-generator",
+    "name": "Faceless YouTube Generator",
+    "oneLiner": "Social & Content Marketing: Faceless YouTube Generator",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "Webhooks",
+      "YouTube"
+    ],
+    "tags": [
+      "claude",
+      "data etl",
+      "devops",
+      "faceless",
+      "generator",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "openai",
+      "social",
+      "webhooks",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/108c0a1eeec944293a93da18763de463.json"
+  },
+  {
+    "id": "agt_famous-brands-shorts-template",
+    "name": "Famous Brands Shorts Template",
+    "oneLiner": "Social & Content Marketing: Famous Brands Shorts Template",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "brands",
+      "calendars",
+      "data etl",
+      "devops",
+      "famous",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "openai",
+      "shorts",
+      "social",
+      "template",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/11027b333378e591d0dcbcf5270cb9dc.json"
+  },
+  {
+    "id": "agt_firecrawl-extract-template",
+    "name": "Firecrawl Extract Template",
+    "oneLiner": "Social & Content Marketing: Firecrawl Extract Template",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "YouTube"
+    ],
+    "tags": [
+      "data etl",
+      "extract",
+      "firecrawl",
+      "http",
+      "social",
+      "template",
+      "youtube"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/00a4b9efe116a24acc5c8fe6a8f5495c.json"
+  },
+  {
+    "id": "agt_firecrawl-search",
+    "name": "Firecrawl Search",
+    "oneLiner": "Lead Gen & Prospecting: Firecrawl Search",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "customer support",
+      "data etl",
+      "firecrawl",
+      "http",
+      "lead gen",
+      "openai",
+      "search",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/beba1beb563aa77df686b47ec34b3b21.json"
+  },
+  {
+    "id": "agt_first-agent-demo",
+    "name": "First agent demo",
+    "oneLiner": "Email Outreach: First agent demo",
+    "categories": [
+      "Email Outreach",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "data etl",
+      "demo",
+      "email outreach",
+      "first",
+      "gmail",
+      "google sheets",
+      "openai"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/e29bacd988bcdda55bef75c29caab447.json"
+  },
+  {
+    "id": "agt_gemini-video-analysis",
+    "name": "Gemini - Video Analysis",
+    "oneLiner": "Lead Gen & Prospecting: Gemini - Video Analysis",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "HR & Recruiting"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP"
+    ],
+    "tags": [
+      "airtable",
+      "analysis",
+      "data etl",
+      "gemini",
+      "hr",
+      "http",
+      "image / video generation",
+      "lead gen",
+      "social",
+      "video"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/572cbe4e2c632dc3c2eca5e77287d931.json"
+  },
+  {
+    "id": "agt_gemini-video-analysis-new",
+    "name": "Gemini - Video Analysis (NEW)",
+    "oneLiner": "Social & Content Marketing: Gemini - Video Analysis (NEW)",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP",
+      "YouTube"
+    ],
+    "tags": [
+      "airtable",
+      "analysis",
+      "calendars",
+      "data etl",
+      "gemini",
+      "http",
+      "image / video generation",
+      "new",
+      "social",
+      "video",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/f04e1c50069ec41c3bf334c247cc1498.json"
+  },
+  {
+    "id": "agt_glass-fruit-asmr",
+    "name": "Glass Fruit ASMR",
+    "oneLiner": "Social & Content Marketing: Glass Fruit ASMR",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "YouTube"
+    ],
+    "tags": [
+      "asmr",
+      "calendars",
+      "data etl",
+      "fruit",
+      "glass",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/4aaa82132f39860e9d27d76a8cdc43a8.json"
+  },
+  {
+    "id": "agt_google-maps",
+    "name": "Google Maps",
+    "oneLiner": "Data ETL & Scraping: Google Maps",
+    "categories": [
+      "Data ETL & Scraping",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "google",
+      "google sheets",
+      "http",
+      "maps"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/772301b6ae76c6518b985065fb642751.json"
+  },
+  {
+    "id": "agt_google-maps-scraper-no-api",
+    "name": "Google Maps Scraper No API",
+    "oneLiner": "Data ETL & Scraping: Google Maps Scraper No API",
+    "categories": [
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP"
+    ],
+    "tags": [
+      "api",
+      "data etl",
+      "google",
+      "google sheets",
+      "http",
+      "maps",
+      "scraper"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/e2fbe1b7bca30910ec71260a1106e630.json"
+  },
+  {
+    "id": "agt_google-sheet-watch-changes",
+    "name": "Google Sheet Watch Changes",
+    "oneLiner": "Email Outreach: Google Sheet Watch Changes",
+    "categories": [
+      "Email Outreach",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "HTTP",
+      "Webhooks"
+    ],
+    "tags": [
+      "changes",
+      "email outreach",
+      "gmail",
+      "google",
+      "google sheets",
+      "http",
+      "internal notifications",
+      "sheet",
+      "watch",
+      "webhooks"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/ac10e5b2d2ceac8b48f3e90096498623.json"
+  },
+  {
+    "id": "agt_heygen-avatar",
+    "name": "HeyGen Avatar",
+    "oneLiner": "Social & Content Marketing: HeyGen Avatar",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation",
+      "DevOps & Monitoring"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "analytics",
+      "avatar",
+      "data etl",
+      "devops",
+      "heygen",
+      "http",
+      "image / video generation",
+      "openai",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/d7ab3e621e8ea491780947ba08c89282.json"
+  },
+  {
+    "id": "agt_hitl-example-flows",
+    "name": "HITL Example Flows",
+    "oneLiner": "Social & Content Marketing: HITL Example Flows",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "Telegram",
+      "YouTube"
+    ],
+    "tags": [
+      "chatbots",
+      "example",
+      "flows",
+      "hitl",
+      "http",
+      "openai",
+      "social",
+      "telegram",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/f9ff5992a4bd4c78a87715b5cb901f80.json"
+  },
+  {
+    "id": "agt_human-in-the-loop",
+    "name": "Human in the Loop",
+    "oneLiner": "Email Outreach: Human in the Loop",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "chatbots",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "human",
+      "loop",
+      "openai",
+      "social",
+      "telegram",
+      "the"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/301811ead1deb339a5454f20520dc1ba.json"
+  },
+  {
+    "id": "agt_human-in-the-loop-calendar-agent",
+    "name": "Human in the Loop Calendar Agent",
+    "oneLiner": "Email Outreach: Human in the Loop Calendar Agent",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "analytics",
+      "calendar",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "email outreach",
+      "human",
+      "loop",
+      "openai",
+      "rag / knowledge search",
+      "social",
+      "telegram",
+      "the"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/36cb44e8112a48ec832edca0c0b56508.json"
+  },
+  {
+    "id": "agt_invoice-generator",
+    "name": "Invoice Generator",
+    "oneLiner": "Social & Content Marketing: Invoice Generator",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Image / Video Generation",
+      "Finance & Invoicing"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "chatbots",
+      "finance",
+      "generator",
+      "image / video generation",
+      "invoice",
+      "openai",
+      "social",
+      "telegram"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/8fdd804302abbb32479cfafd2f83fd2b.json"
+  },
+  {
+    "id": "agt_jarvis",
+    "name": "JARVIS",
+    "oneLiner": "Email Outreach: JARVIS",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "calendars",
+      "email outreach",
+      "http",
+      "internal notifications",
+      "jarvis",
+      "openai",
+      "social",
+      "webhooks"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/b1a4f54803a05c15e48069e2c784534a.json"
+  },
+  {
+    "id": "agt_job-seeking",
+    "name": "Job Seeking",
+    "oneLiner": "Social & Content Marketing: Job Seeking",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "HR & Recruiting",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "calendars",
+      "chatbots",
+      "data etl",
+      "google sheets",
+      "hr",
+      "http",
+      "job",
+      "openai",
+      "seeking",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/2e9a57d1e59a69c8a1ccdfc54f0f73ed.json"
+  },
+  {
+    "id": "agt_lead-generation-outreach",
+    "name": "Lead Generation + Outreach",
+    "oneLiner": "Lead Gen & Prospecting: Lead Generation + Outreach",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "devops",
+      "email outreach",
+      "generation",
+      "google sheets",
+      "http",
+      "lead",
+      "lead gen",
+      "openai",
+      "outreach",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/ee955132bfcf503248018b08c3b72862.json"
+  },
+  {
+    "id": "agt_lead-nurturing-demo",
+    "name": "Lead Nurturing Demo",
+    "oneLiner": "Lead Gen & Prospecting: Lead Nurturing Demo",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "DevOps & Monitoring",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "OpenAI",
+      "Slack",
+      "YouTube"
+    ],
+    "tags": [
+      "data etl",
+      "demo",
+      "devops",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "internal notifications",
+      "lead",
+      "lead gen",
+      "nurturing",
+      "openai",
+      "slack",
+      "social",
+      "youtube"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/5cec372dd19aed5188da97332573a0a3.json"
+  },
+  {
+    "id": "agt_linkedin-ai-agent",
+    "name": "LinkedIn AI Agent",
+    "oneLiner": "Social & Content Marketing: LinkedIn AI Agent",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "devops",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "linkedin",
+      "openai",
+      "social",
+      "telegram"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/2843cc0c8f8be9b6b04630f0d46248a9.json"
+  },
+  {
+    "id": "agt_linkedincomments-youtube",
+    "name": "LinkedinComments (youtube)",
+    "oneLiner": "Lead Gen & Prospecting: LinkedinComments (youtube)",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP",
+      "Webhooks",
+      "YouTube"
+    ],
+    "tags": [
+      "airtable",
+      "data etl",
+      "http",
+      "internal notifications",
+      "lead gen",
+      "linkedincomments",
+      "social",
+      "webhooks",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c21a30f92f54525c4d56303e76bcc5c5.json"
+  },
+  {
+    "id": "agt_live-search-grok-api-webhook",
+    "name": "Live Search Grok API (Webhook)",
+    "oneLiner": "Internal Notifications & Alerts: Live Search Grok API (Webhook)",
+    "categories": [
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "HTTP",
+      "Webhooks"
+    ],
+    "tags": [
+      "api",
+      "claude",
+      "grok",
+      "http",
+      "internal notifications",
+      "live",
+      "search",
+      "webhook",
+      "webhooks"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/20f01c045276f93dfc3d8c118ea77510.json"
+  },
+  {
+    "id": "agt_llm-testing",
+    "name": "LLM Testing",
+    "oneLiner": "RAG / Knowledge Search: LLM Testing",
+    "categories": [
+      "RAG / Knowledge Search",
+      "Analytics & Reporting"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "OpenAI",
+      "Pinecone"
+    ],
+    "tags": [
+      "analytics",
+      "claude",
+      "llm",
+      "openai",
+      "pinecone",
+      "rag / knowledge search",
+      "testing"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/a4d08745322f4394bf33215d409eeece.json"
+  },
+  {
+    "id": "agt_local-rag-ai-agent",
+    "name": "Local RAG AI Agent",
+    "oneLiner": "Social & Content Marketing: Local RAG AI Agent",
+    "categories": [
+      "Social & Content Marketing",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Qdrant",
+      "Webhooks"
+    ],
+    "tags": [
+      "agent",
+      "calendars",
+      "data etl",
+      "internal notifications",
+      "local",
+      "qdrant",
+      "rag",
+      "rag / knowledge search",
+      "social",
+      "webhooks"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c294666e5db09bf443d65c84aa00267d.json"
+  },
+  {
+    "id": "agt_log-agent-outputs",
+    "name": "Log Agent Outputs",
+    "oneLiner": "Email Outreach: Log Agent Outputs",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "Google Sheets",
+      "OpenAI",
+      "Telegram",
+      "YouTube"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "log",
+      "openai",
+      "outputs",
+      "social",
+      "telegram",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/abce418078e3e332ae873524094247d2.json"
+  },
+  {
+    "id": "agt_long-term-memory-demo",
+    "name": "Long Term Memory Demo",
+    "oneLiner": "Data ETL & Scraping: Long Term Memory Demo",
+    "categories": [
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "OpenAI"
+    ],
+    "tags": [
+      "airtable",
+      "data etl",
+      "demo",
+      "long",
+      "memory",
+      "openai",
+      "term"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/2ddf83bf8f8e76ea19a575d9ac791f4d.json"
+  },
+  {
+    "id": "agt_loveable-software-app",
+    "name": "Loveable Software App",
+    "oneLiner": "Social & Content Marketing: Loveable Software App",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "app",
+      "data etl",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "loveable",
+      "openai",
+      "social",
+      "software",
+      "webhooks"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/3a7cae02f0c9def8df534230cb78fb7b.json"
+  },
+  {
+    "id": "agt_main-ai-agent",
+    "name": "Main AI Agent",
+    "oneLiner": "Chatbots & WhatsApp: Main AI Agent",
+    "categories": [
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "agent",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "image / video generation",
+      "main",
+      "openai",
+      "telegram"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/b21772825764bbda063e422d67c71bb0.json"
+  },
+  {
+    "id": "agt_manager-agent",
+    "name": "Manager Agent",
+    "oneLiner": "Sales & CRM Ops: Manager Agent",
+    "categories": [
+      "Sales & CRM Ops",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "HR & Recruiting",
+      "Finance & Invoicing",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "email outreach",
+      "finance",
+      "gmail",
+      "hr",
+      "image / video generation",
+      "manager",
+      "openai",
+      "sales",
+      "social",
+      "telegram"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/565f4877def2f980719dbb5c12ee050d.json"
+  },
+  {
+    "id": "agt_marketing-agent",
+    "name": "Marketing Agent",
+    "oneLiner": "Social & Content Marketing: Marketing Agent",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "agent",
+      "analytics",
+      "data etl",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "marketing",
+      "openai",
+      "social",
+      "webhooks"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/4cd8e1913260b5918f07a9c916345aaa.json"
+  },
+  {
+    "id": "agt_master-social-scraper-google-sheets",
+    "name": "Master Social Scraper (Google Sheets)",
+    "oneLiner": "Social & Content Marketing: Master Social Scraper (Google Sheets)",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "data etl",
+      "google",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "master",
+      "openai",
+      "scraper",
+      "sheets",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/e67fc72cddb3039bf3f657efb9da6da3.json"
+  },
+  {
+    "id": "agt_mcp",
+    "name": "MCP",
+    "oneLiner": "Social & Content Marketing: MCP",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "google sheets",
+      "mcp",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/0fbea5cd0f3f71bafa408b29fb105331.json"
+  },
+  {
+    "id": "agt_mcp-agent",
+    "name": "MCP Agent",
+    "oneLiner": "Data ETL & Scraping: MCP Agent",
+    "categories": [
+      "Data ETL & Scraping",
+      "DevOps & Monitoring"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "data etl",
+      "devops",
+      "mcp",
+      "openai"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/8fe33942a405bd74697f75b6ffeddd34.json"
+  },
+  {
+    "id": "agt_mcp-servers-template-ben",
+    "name": "MCP Servers Template (Ben)",
+    "oneLiner": "Lead Gen & Prospecting: MCP Servers Template (Ben)",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Sales & CRM Ops",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "HTTP",
+      "OpenAI",
+      "Slack",
+      "WhatsApp"
+    ],
+    "tags": [
+      "airtable",
+      "analytics",
+      "ben",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "devops",
+      "email outreach",
+      "gmail",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "lead gen",
+      "mcp",
+      "openai",
+      "rag / knowledge search"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/b971ef6dc93fa6ebff50e9ebfb8370e6.json"
+  },
+  {
+    "id": "agt_mistral-ocr",
+    "name": "Mistral OCR",
+    "oneLiner": "Social & Content Marketing: Mistral OCR",
+    "categories": [
+      "Social & Content Marketing",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP"
+    ],
+    "tags": [
+      "http",
+      "image / video generation",
+      "mistral",
+      "ocr",
+      "social"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/8d9eb41e8082112c2b7dbf947e0be987.json"
+  },
+  {
+    "id": "agt_multi-agent-system-benefits",
+    "name": "Multi Agent System Benefits",
+    "oneLiner": "Email Outreach: Multi Agent System Benefits",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Claude",
+      "Gmail",
+      "HTTP",
+      "OpenAI",
+      "Telegram",
+      "YouTube"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "analytics",
+      "benefits",
+      "calendars",
+      "chatbots",
+      "claude",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "http",
+      "image / video generation",
+      "multi",
+      "openai",
+      "social",
+      "system"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/fcd90ee4731737a27ff67584423e1424.json"
+  },
+  {
+    "id": "agt_multi-ai-agents",
+    "name": "Multi AI Agents",
+    "oneLiner": "Social & Content Marketing: Multi AI Agents",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "agents",
+      "data etl",
+      "google sheets",
+      "http",
+      "multi",
+      "openai",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c615633dfda7e29ee4312dd23c47b76a.json"
+  },
+  {
+    "id": "agt_my-workflow",
+    "name": "My workflow",
+    "oneLiner": "Social & Content Marketing: My workflow",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "DevOps & Monitoring",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "Slack"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "devops",
+      "google sheets",
+      "http",
+      "internal notifications",
+      "slack",
+      "social",
+      "workflow"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/3eb59d9e7fd45201cc6749d89884a537.json"
+  },
+  {
+    "id": "agt_my-workflow-43",
+    "name": "My workflow 43",
+    "oneLiner": "Data ETL & Scraping: My workflow 43",
+    "categories": [
+      "Data ETL & Scraping",
+      "Finance & Invoicing",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "finance",
+      "google sheets",
+      "http",
+      "internal notifications",
+      "openai",
+      "webhooks",
+      "workflow"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/409a8c18c07086f12c11d94fc143068a.json"
+  },
+  {
+    "id": "agt_my-workflow-72",
+    "name": "My workflow 72",
+    "oneLiner": "Social & Content Marketing: My workflow 72",
+    "categories": [
+      "Social & Content Marketing",
+      "Analytics & Reporting",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "analytics",
+      "http",
+      "internal notifications",
+      "openai",
+      "social",
+      "webhooks",
+      "workflow"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/8276afc5b02a55b52fed9faaf303621e.json"
+  },
+  {
+    "id": "agt_n8n-agent-creator",
+    "name": "N8N Agent creator",
+    "oneLiner": "Uncategorized: N8N Agent creator",
+    "categories": [
+      "Uncategorized"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "creator",
+      "n8n",
+      "openai",
+      "uncategorized"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/533f1c64a12dae18f61a7f87eb6813ac.json"
+  },
+  {
+    "id": "agt_n8n-chat-agent-for-youtube",
+    "name": "N8N Chat Agent for YouTube",
+    "oneLiner": "Social & Content Marketing: N8N Chat Agent for YouTube",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Webhooks",
+      "YouTube"
+    ],
+    "tags": [
+      "agent",
+      "calendars",
+      "chat",
+      "chatbots",
+      "for",
+      "internal notifications",
+      "n8n",
+      "openai",
+      "social",
+      "webhooks",
+      "youtube"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/23c69d83b146f1e85e101edc5d171367.json"
+  },
+  {
+    "id": "agt_n8n-chatgpt-chatbot",
+    "name": "n8n ChatGPT ChatBot",
+    "oneLiner": "Email Outreach: n8n ChatGPT ChatBot",
+    "categories": [
+      "Email Outreach",
+      "Chatbots & WhatsApp",
+      "Finance & Invoicing",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "chatbot",
+      "chatbots",
+      "chatgpt",
+      "email outreach",
+      "finance",
+      "internal notifications",
+      "n8n",
+      "openai",
+      "webhooks"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/9a1cad793029cdf1950275780e655b46.json"
+  },
+  {
+    "id": "agt_n8n-developer-agent",
+    "name": "n8n Developer Agent",
+    "oneLiner": "Social & Content Marketing: n8n Developer Agent",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "YouTube"
+    ],
+    "tags": [
+      "agent",
+      "claude",
+      "data etl",
+      "developer",
+      "n8n",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/4e3d667842f8e931b37001df2e3cb128.json"
+  },
+  {
+    "id": "agt_n8n-excuse-generator",
+    "name": "n8n Excuse Generator",
+    "oneLiner": "Social & Content Marketing: n8n Excuse Generator",
+    "categories": [
+      "Social & Content Marketing",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Webhooks",
+      "YouTube"
+    ],
+    "tags": [
+      "excuse",
+      "generator",
+      "internal notifications",
+      "n8n",
+      "openai",
+      "social",
+      "webhooks",
+      "youtube"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/3967d83fa5b153e4329ed644f3cc44b8.json"
+  },
+  {
+    "id": "agt_n8n-masterclass-customer-orders",
+    "name": "n8n Masterclass: Customer Orders",
+    "oneLiner": "Email Outreach: n8n Masterclass: Customer Orders",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Analytics & Reporting"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "OpenAI"
+    ],
+    "tags": [
+      "analytics",
+      "customer",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "masterclass",
+      "n8n",
+      "openai",
+      "orders",
+      "social"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/10809cb9184e9a0bea7f80d62d292b6a.json"
+  },
+  {
+    "id": "agt_n8n-recruitment",
+    "name": "n8n Recruitment",
+    "oneLiner": "Email Outreach: n8n Recruitment",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "HR & Recruiting",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "OpenAI",
+      "Slack",
+      "Webhooks"
+    ],
+    "tags": [
+      "calendars",
+      "chatbots",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "hr",
+      "internal notifications",
+      "n8n",
+      "openai",
+      "recruitment",
+      "slack",
+      "social",
+      "webhooks"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/e24f258656f1f13f7035cb3d26c80999.json"
+  },
+  {
+    "id": "agt_no-shows",
+    "name": "No shows",
+    "oneLiner": "Lead Gen & Prospecting: No shows",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "HTTP",
+      "OpenAI",
+      "Twilio"
+    ],
+    "tags": [
+      "airtable",
+      "analytics",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "http",
+      "lead gen",
+      "openai",
+      "shows",
+      "social",
+      "twilio"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/052c2962a161a83f1957055d2ef04369.json"
+  },
+  {
+    "id": "agt_o3-mini-travel-agent",
+    "name": "o3 mini Travel Agent",
+    "oneLiner": "Email Outreach: o3 mini Travel Agent",
+    "categories": [
+      "Email Outreach",
+      "RAG / Knowledge Search"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI",
+      "Pinecone"
+    ],
+    "tags": [
+      "agent",
+      "email outreach",
+      "gmail",
+      "mini",
+      "openai",
+      "pinecone",
+      "rag / knowledge search",
+      "travel"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/3d80b1c47aaf6acc6927fa682325d60e.json"
+  },
+  {
+    "id": "agt_onboarding-workflow",
+    "name": "Onboarding Workflow",
+    "oneLiner": "Sales & CRM Ops: Onboarding Workflow",
+    "categories": [
+      "Sales & CRM Ops",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "HR & Recruiting",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI",
+      "Slack"
+    ],
+    "tags": [
+      "data etl",
+      "email outreach",
+      "gmail",
+      "hr",
+      "internal notifications",
+      "onboarding",
+      "openai",
+      "sales",
+      "slack",
+      "social",
+      "workflow"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/02acd811c28c45c6592b89c86273fc74.json"
+  },
+  {
+    "id": "agt_openai-image-gen-linkedin-post",
+    "name": "OpenAI Image Gen LinkedIn Post",
+    "oneLiner": "Email Outreach: OpenAI Image Gen LinkedIn Post",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "email outreach",
+      "gen",
+      "gmail",
+      "http",
+      "image",
+      "image / video generation",
+      "linkedin",
+      "openai",
+      "post",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/ce72ae67ce6b7811928e18a8985edcf7.json"
+  },
+  {
+    "id": "agt_openai-images-agent",
+    "name": "OpenAI Images Agent",
+    "oneLiner": "Social & Content Marketing: OpenAI Images Agent",
+    "categories": [
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Data ETL & Scraping",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "customer support",
+      "data etl",
+      "google sheets",
+      "image / video generation",
+      "images",
+      "openai",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/ae0b8bbc9fb9b2c3189903ed0ab8c6e6.json"
+  },
+  {
+    "id": "agt_order-and-delivery-support",
+    "name": "Order and Delivery Support",
+    "oneLiner": "Email Outreach: Order and Delivery Support",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "OpenAI"
+    ],
+    "tags": [
+      "airtable",
+      "and",
+      "calendars",
+      "customer support",
+      "data etl",
+      "delivery",
+      "email outreach",
+      "gmail",
+      "openai",
+      "order",
+      "rag / knowledge search",
+      "social",
+      "support"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/9bf0c376375f35bf822a7b0294f17cce.json"
+  },
+  {
+    "id": "agt_outlook-inbox-manager",
+    "name": "Outlook Inbox Manager",
+    "oneLiner": "Email Outreach: Outlook Inbox Manager",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Finance & Invoicing"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "chatbots",
+      "email outreach",
+      "finance",
+      "inbox",
+      "manager",
+      "openai",
+      "outlook",
+      "social",
+      "telegram"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/3ffb057eff3724eb451508000ee28c89.json"
+  },
+  {
+    "id": "agt_parent-agent",
+    "name": "Parent Agent",
+    "oneLiner": "Uncategorized: Parent Agent",
+    "categories": [
+      "Uncategorized"
+    ],
+    "industries": [],
+    "tools": [],
+    "tags": [
+      "agent",
+      "parent",
+      "uncategorized"
+    ],
+    "docScore": 80,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/3a47762f0dd1e161bf1f43e3cac58569.json"
+  },
+  {
+    "id": "agt_personal-assistant",
+    "name": "Personal assistant",
+    "oneLiner": "Lead Gen & Prospecting: Personal assistant",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "OpenAI",
+      "Telegram",
+      "YouTube"
+    ],
+    "tags": [
+      "airtable",
+      "assistant",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "image / video generation",
+      "lead gen",
+      "openai",
+      "personal",
+      "social",
+      "telegram",
+      "youtube"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/4d025e7f671a9860eeed06d4ebd5b397.json"
+  },
+  {
+    "id": "agt_phone-agent",
+    "name": "Phone agent",
+    "oneLiner": "Lead Gen & Prospecting: Phone agent",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Analytics & Reporting"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "analytics",
+      "chatbots",
+      "data etl",
+      "http",
+      "lead gen",
+      "openai",
+      "phone",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/063dba33671730715a17a4a00485dc5e.json"
+  },
+  {
+    "id": "agt_process-cv-with-ai",
+    "name": "Process CV with AI",
+    "oneLiner": "Email Outreach: Process CV with AI",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "HR & Recruiting",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Calendly",
+      "Gmail",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "airtable",
+      "calendars",
+      "calendly",
+      "data etl",
+      "devops",
+      "email outreach",
+      "gmail",
+      "hr",
+      "http",
+      "image / video generation",
+      "openai",
+      "process",
+      "social",
+      "with"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/cfe91ca5f36728aa3f19273faa3710ce.json"
+  },
+  {
+    "id": "agt_product-videos",
+    "name": "Product Videos",
+    "oneLiner": "Email Outreach: Product Videos",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Image / Video Generation",
+      "DevOps & Monitoring"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "devops",
+      "email outreach",
+      "gmail",
+      "http",
+      "image / video generation",
+      "openai",
+      "product",
+      "social",
+      "videos",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/f183858c8e8ae33807b70c389e0d27f6.json"
+  },
+  {
+    "id": "agt_prompt-chaining",
+    "name": "Prompt Chaining",
+    "oneLiner": "Social & Content Marketing: Prompt Chaining",
+    "categories": [
+      "Social & Content Marketing"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "OpenAI"
+    ],
+    "tags": [
+      "chaining",
+      "claude",
+      "openai",
+      "prompt",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/d9f9e0ba79330b9756f7ef04324a6d55.json"
+  },
+  {
+    "id": "agt_prompt-engineer",
+    "name": "Prompt Engineer",
+    "oneLiner": "Uncategorized: Prompt Engineer",
+    "categories": [
+      "Uncategorized"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "OpenAI"
+    ],
+    "tags": [
+      "claude",
+      "engineer",
+      "openai",
+      "prompt",
+      "uncategorized"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/1148701791b6e2412399e4b1955edbdb.json"
+  },
+  {
+    "id": "agt_prompting-cheat-sheet",
+    "name": "Prompting Cheat Sheet",
+    "oneLiner": "Email Outreach: Prompting Cheat Sheet",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Data ETL & Scraping",
+      "DevOps & Monitoring"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "cheat",
+      "customer support",
+      "data etl",
+      "devops",
+      "email outreach",
+      "google sheets",
+      "http",
+      "openai",
+      "prompting",
+      "sheet",
+      "social"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/d0af1e2394395960dda897a3b94387b3.json"
+  },
+  {
+    "id": "agt_proposal-generator-template",
+    "name": "Proposal Generator Template",
+    "oneLiner": "Lead Gen & Prospecting: Proposal Generator Template",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI"
+    ],
+    "tags": [
+      "email outreach",
+      "generator",
+      "gmail",
+      "image / video generation",
+      "lead gen",
+      "openai",
+      "proposal",
+      "social",
+      "template"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c2ecc0b26713e97440b355a465e05aa6.json"
+  },
+  {
+    "id": "agt_publish-to-9-social-platforms",
+    "name": "Publish to 9 Social Platforms",
+    "oneLiner": "Social & Content Marketing: Publish to 9 Social Platforms",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "openai",
+      "platforms",
+      "publish",
+      "social",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/7cf7b664e140e0dae872462019fbda64.json"
+  },
+  {
+    "id": "agt_rag-1",
+    "name": "RAG #1",
+    "oneLiner": "RAG / Knowledge Search: RAG #1",
+    "categories": [
+      "RAG / Knowledge Search"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Pinecone"
+    ],
+    "tags": [
+      "openai",
+      "pinecone",
+      "rag",
+      "rag / knowledge search"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/9866c3e6c9939a1937fee85402e6d81e.json"
+  },
+  {
+    "id": "agt_rag-pipeline-chatbot",
+    "name": "RAG Pipeline & Chatbot",
+    "oneLiner": "Sales & CRM Ops: RAG Pipeline & Chatbot",
+    "categories": [
+      "Sales & CRM Ops",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "RAG / Knowledge Search"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "OpenAI",
+      "Pinecone"
+    ],
+    "tags": [
+      "chatbot",
+      "chatbots",
+      "claude",
+      "openai",
+      "pinecone",
+      "pipeline",
+      "rag",
+      "rag / knowledge search",
+      "sales",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/451a7c721b6395452e03a94db3307a23.json"
+  },
+  {
+    "id": "agt_rag-system-2-0",
+    "name": "RAG System 2.0",
+    "oneLiner": "Social & Content Marketing: RAG System 2.0",
+    "categories": [
+      "Social & Content Marketing",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "data etl",
+      "http",
+      "openai",
+      "rag",
+      "rag / knowledge search",
+      "social",
+      "system"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/0d72865079d95c092dfa75fc07f42cec.json"
+  },
+  {
+    "id": "agt_rag-workflow-vs-rag-agent",
+    "name": "RAG Workflow vs. RAG Agent",
+    "oneLiner": "Email Outreach: RAG Workflow vs. RAG Agent",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "RAG / Knowledge Search"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI",
+      "Pinecone"
+    ],
+    "tags": [
+      "agent",
+      "customer support",
+      "email outreach",
+      "gmail",
+      "openai",
+      "pinecone",
+      "rag",
+      "rag / knowledge search",
+      "social",
+      "workflow"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/cbd1ef03eeaa3b35c9e6ced870a88367.json"
+  },
+  {
+    "id": "agt_re-assistant-inbox-vid",
+    "name": "RE Assistant - Inbox (vid)",
+    "oneLiner": "Sales & CRM Ops: RE Assistant - Inbox (vid)",
+    "categories": [
+      "Sales & CRM Ops",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI"
+    ],
+    "tags": [
+      "assistant",
+      "calendars",
+      "data etl",
+      "devops",
+      "email outreach",
+      "gmail",
+      "inbox",
+      "openai",
+      "sales",
+      "social",
+      "vid"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/0299c5ff02cf6827829f2d3e35bb37a5.json"
+  },
+  {
+    "id": "agt_research-agent-demo",
+    "name": "Research Agent Demo",
+    "oneLiner": "Uncategorized: Research Agent Demo",
+    "categories": [
+      "Uncategorized"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "demo",
+      "openai",
+      "research",
+      "uncategorized"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c870ea6b91fdb3c65ca8cb9d39b20e11.json"
+  },
+  {
+    "id": "agt_research-anyhting",
+    "name": "Research anyhting",
+    "oneLiner": "Uncategorized: Research anyhting",
+    "categories": [
+      "Uncategorized"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI"
+    ],
+    "tags": [
+      "anyhting",
+      "openai",
+      "research",
+      "uncategorized"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/dbe55659cbdf03ffc32c39574a25987d.json"
+  },
+  {
+    "id": "agt_resume-screener",
+    "name": "RESUME SCREENER",
+    "oneLiner": "Email Outreach: RESUME SCREENER",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "HR & Recruiting",
+      "DevOps & Monitoring"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Claude",
+      "Gmail",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "airtable",
+      "analytics",
+      "claude",
+      "customer support",
+      "data etl",
+      "devops",
+      "email outreach",
+      "gmail",
+      "hr",
+      "http",
+      "openai",
+      "resume",
+      "screener",
+      "social"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/705f3c6fbc7f5ca2284305761bfa8b15.json"
+  },
+  {
+    "id": "agt_sales-agent-w-mcp",
+    "name": "Sales Agent w MCP",
+    "oneLiner": "Lead Gen & Prospecting: Sales Agent w MCP",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Sales & CRM Ops",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP",
+      "OpenAI",
+      "Webhooks",
+      "WhatsApp"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "analytics",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "email outreach",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "lead gen",
+      "mcp",
+      "openai",
+      "rag / knowledge search",
+      "sales",
+      "social"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/2b8d756b026ebc2123410d1b87c07150.json"
+  },
+  {
+    "id": "agt_sales-assistant-build",
+    "name": "Sales Assistant Build",
+    "oneLiner": "Email Outreach: Sales Assistant Build",
+    "categories": [
+      "Email Outreach",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "assistant",
+      "build",
+      "data etl",
+      "email outreach",
+      "google sheets",
+      "http",
+      "openai",
+      "sales"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/337590e9a3f59d802fb4f00940bf832c.json"
+  },
+  {
+    "id": "agt_sales-team-hitl",
+    "name": "Sales Team - HITL",
+    "oneLiner": "Lead Gen & Prospecting: Sales Team - HITL",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail"
+    ],
+    "tags": [
+      "airtable",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "hitl",
+      "lead gen",
+      "sales",
+      "social",
+      "team"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/05373110445dca3ec8859fc8f82e855f.json"
+  },
+  {
+    "id": "agt_scraper",
+    "name": "Scraper",
+    "oneLiner": "Social & Content Marketing: Scraper",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "DevOps & Monitoring"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP"
+    ],
+    "tags": [
+      "data etl",
+      "devops",
+      "http",
+      "scraper",
+      "social"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/ee7de673fa07ffe906850db82aa0bf80.json"
+  },
+  {
+    "id": "agt_scraping-agent",
+    "name": "Scraping Agent",
+    "oneLiner": "Social & Content Marketing: Scraping Agent",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Analytics & Reporting"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "agent",
+      "analytics",
+      "chatbots",
+      "data etl",
+      "http",
+      "openai",
+      "scraping",
+      "social",
+      "telegram"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/45ee9ef0d267fba3cd3ef1e6a7eac752.json"
+  },
+  {
+    "id": "agt_sms-agent",
+    "name": "sms agent",
+    "oneLiner": "Email Outreach: sms agent",
+    "categories": [
+      "Email Outreach",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "Google Sheets",
+      "OpenAI",
+      "Twilio",
+      "Webhooks"
+    ],
+    "tags": [
+      "agent",
+      "chatbots",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "internal notifications",
+      "openai",
+      "sms",
+      "twilio",
+      "webhooks"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/4f74ef18c27920da6aa206429ef3faa7.json"
+  },
+  {
+    "id": "agt_speed-to-lead",
+    "name": "Speed To Lead",
+    "oneLiner": "Lead Gen & Prospecting: Speed To Lead",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Email Outreach",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "Telegram",
+      "Webhooks"
+    ],
+    "tags": [
+      "chatbots",
+      "data etl",
+      "email outreach",
+      "google sheets",
+      "http",
+      "internal notifications",
+      "lead",
+      "lead gen",
+      "speed",
+      "telegram",
+      "webhooks"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/d0eee44bc4e087bd3d2e7d235d66751c.json"
+  },
+  {
+    "id": "agt_supabase-postgres",
+    "name": "Supabase/Postgres",
+    "oneLiner": "Social & Content Marketing: Supabase/Postgres",
+    "categories": [
+      "Social & Content Marketing",
+      "RAG / Knowledge Search"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI"
+    ],
+    "tags": [
+      "openai",
+      "postgres",
+      "rag / knowledge search",
+      "social",
+      "supabase"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/39256f880eee5189d01b94ab64a96dad.json"
+  },
+  {
+    "id": "agt_super-assistants-mcp-servers",
+    "name": "Super Assistants - [MCP Servers]",
+    "oneLiner": "Lead Gen & Prospecting: Super Assistants - [MCP Servers]",
+    "categories": [
+      "Lead Gen & Prospecting",
+      "Sales & CRM Ops",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "DevOps & Monitoring",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "HTTP",
+      "Slack",
+      "WhatsApp"
+    ],
+    "tags": [
+      "airtable",
+      "analytics",
+      "assistants",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "devops",
+      "email outreach",
+      "gmail",
+      "http",
+      "internal notifications",
+      "lead gen",
+      "mcp",
+      "sales",
+      "servers",
+      "slack"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/b6d5d5fe8cd50b4fa3b772294e56f747.json"
+  },
+  {
+    "id": "agt_tech-crm",
+    "name": "Tech CRM",
+    "oneLiner": "Sales & CRM Ops: Tech CRM",
+    "categories": [
+      "Sales & CRM Ops",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Data ETL & Scraping",
+      "DevOps & Monitoring",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "airtable",
+      "crm",
+      "customer support",
+      "data etl",
+      "devops",
+      "http",
+      "internal notifications",
+      "openai",
+      "sales",
+      "social",
+      "tech",
+      "webhooks"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/25363800a1fce5d8e4766768bab75217.json"
+  },
+  {
+    "id": "agt_test",
+    "name": "Test",
+    "oneLiner": "Social & Content Marketing: Test",
+    "categories": [
+      "Social & Content Marketing",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "http",
+      "image / video generation",
+      "openai",
+      "social",
+      "test"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/5279a4ae10e9c301f370d79e6eb43f7a.json"
+  },
+  {
+    "id": "agt_think-agents",
+    "name": "Think Agents",
+    "oneLiner": "Email Outreach: Think Agents",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Claude",
+      "Gmail",
+      "HTTP",
+      "OpenAI",
+      "Pinecone",
+      "YouTube"
+    ],
+    "tags": [
+      "agents",
+      "airtable",
+      "claude",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "http",
+      "openai",
+      "pinecone",
+      "rag / knowledge search",
+      "social",
+      "think",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/37bfdd47b18f558c92581db9d8f61f74.json"
+  },
+  {
+    "id": "agt_think-tool",
+    "name": "Think Tool",
+    "oneLiner": "Sales & CRM Ops: Think Tool",
+    "categories": [
+      "Sales & CRM Ops",
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "Gmail",
+      "Google Sheets",
+      "OpenAI",
+      "Slack"
+    ],
+    "tags": [
+      "analytics",
+      "calendars",
+      "claude",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "google sheets",
+      "internal notifications",
+      "openai",
+      "sales",
+      "slack",
+      "social",
+      "think",
+      "tool"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/62e839b89e7e0e31367f6f6bc6175660.json"
+  },
+  {
+    "id": "agt_top-10-videos",
+    "name": "Top 10 Videos",
+    "oneLiner": "Social & Content Marketing: Top 10 Videos",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "devops",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "openai",
+      "social",
+      "top",
+      "videos",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/d0ec6b85fcfa3b3e63392e01d881cec3.json"
+  },
+  {
+    "id": "agt_trading-agent-agent-flow",
+    "name": "Trading Agent - Agent Flow",
+    "oneLiner": "Social & Content Marketing: Trading Agent - Agent Flow",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Analytics & Reporting",
+      "Image / Video Generation",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP",
+      "OpenAI",
+      "Telegram",
+      "Webhooks",
+      "YouTube"
+    ],
+    "tags": [
+      "agent",
+      "airtable",
+      "analytics",
+      "calendars",
+      "chatbots",
+      "data etl",
+      "flow",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "openai",
+      "social",
+      "telegram",
+      "trading",
+      "webhooks",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/963e42a7bd8dd5e4e4ed82f19c85e8c0.json"
+  },
+  {
+    "id": "agt_travel-agent",
+    "name": "Travel Agent",
+    "oneLiner": "Email Outreach: Travel Agent",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "Gmail",
+      "HTTP",
+      "OpenAI",
+      "Webhooks"
+    ],
+    "tags": [
+      "agent",
+      "claude",
+      "data etl",
+      "email outreach",
+      "gmail",
+      "http",
+      "internal notifications",
+      "openai",
+      "social",
+      "travel",
+      "webhooks"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/0b75524adfea4bbc0b2cd1d655717c4c.json"
+  },
+  {
+    "id": "agt_trending-youtube-videos-copy",
+    "name": "Trending YouTube Videos copy",
+    "oneLiner": "Social & Content Marketing: Trending YouTube Videos copy",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "copy",
+      "data etl",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "openai",
+      "social",
+      "trending",
+      "videos",
+      "youtube"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/05fcd1788beb9e25e53570f05cdbe1e6.json"
+  },
+  {
+    "id": "agt_twitter-x-scraper",
+    "name": "Twitter/X Scraper",
+    "oneLiner": "Social & Content Marketing: Twitter/X Scraper",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "chatbots",
+      "data etl",
+      "google sheets",
+      "http",
+      "openai",
+      "scraper",
+      "social",
+      "twitter"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/c8f0004a47b57b97b9780ff08c0fbd71.json"
+  },
+  {
+    "id": "agt_ultimate-agentic-rag-ai-agent-template",
+    "name": "Ultimate Agentic RAG AI Agent Template",
+    "oneLiner": "Social & Content Marketing: Ultimate Agentic RAG AI Agent Template",
+    "categories": [
+      "Social & Content Marketing",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Webhooks",
+      "YouTube"
+    ],
+    "tags": [
+      "agent",
+      "agentic",
+      "data etl",
+      "internal notifications",
+      "openai",
+      "rag",
+      "rag / knowledge search",
+      "social",
+      "template",
+      "ultimate",
+      "webhooks",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/fe2b819a7809d27ccdaaa22522e9a147.json"
+  },
+  {
+    "id": "agt_ultimate-browser-agent",
+    "name": "Ultimate Browser Agent",
+    "oneLiner": "Social & Content Marketing: Ultimate Browser Agent",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Claude",
+      "HTTP",
+      "Slack",
+      "YouTube"
+    ],
+    "tags": [
+      "agent",
+      "browser",
+      "claude",
+      "data etl",
+      "http",
+      "internal notifications",
+      "slack",
+      "social",
+      "ultimate",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/068ed39c86e9848799333d5c47ea66c5.json"
+  },
+  {
+    "id": "agt_ultimate-personal-assistant",
+    "name": "Ultimate Personal Assistant",
+    "oneLiner": "Email Outreach: Ultimate Personal Assistant",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "assistant",
+      "calendars",
+      "chatbots",
+      "email outreach",
+      "http",
+      "image / video generation",
+      "openai",
+      "personal",
+      "social",
+      "telegram",
+      "ultimate"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/806d5142d9b9ad56ced20e91d69920c4.json"
+  },
+  {
+    "id": "agt_vapi-invoice",
+    "name": "Vapi Invoice",
+    "oneLiner": "Email Outreach: Vapi Invoice",
+    "categories": [
+      "Email Outreach",
+      "Finance & Invoicing",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "HTTP",
+      "Webhooks"
+    ],
+    "tags": [
+      "email outreach",
+      "finance",
+      "gmail",
+      "http",
+      "internal notifications",
+      "invoice",
+      "vapi",
+      "webhooks"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/0d785a3ffa0c1c8dc70d02fbb60ce72e.json"
+  },
+  {
+    "id": "agt_vector-database-optimization-demo",
+    "name": "Vector Database Optimization Demo",
+    "oneLiner": "Social & Content Marketing: Vector Database Optimization Demo",
+    "categories": [
+      "Social & Content Marketing",
+      "RAG / Knowledge Search",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Pinecone"
+    ],
+    "tags": [
+      "data etl",
+      "database",
+      "demo",
+      "openai",
+      "optimization",
+      "pinecone",
+      "rag / knowledge search",
+      "social",
+      "vector"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/722994abe46f698925f45359a06024d3.json"
+  },
+  {
+    "id": "agt_veo-3",
+    "name": "VEO 3",
+    "oneLiner": "Social & Content Marketing: VEO 3",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "DevOps & Monitoring"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI"
+    ],
+    "tags": [
+      "data etl",
+      "devops",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "openai",
+      "social",
+      "veo"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/dc0682ed625ef4168a3aa19847f81abf.json"
+  },
+  {
+    "id": "agt_viral-fashion-reels",
+    "name": "Viral Fashion Reels",
+    "oneLiner": "Social & Content Marketing: Viral Fashion Reels",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP"
+    ],
+    "tags": [
+      "airtable",
+      "calendars",
+      "data etl",
+      "fashion",
+      "http",
+      "image / video generation",
+      "reels",
+      "social",
+      "viral"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/dccdbaaec3c690864d9d67db99dd8c33.json"
+  },
+  {
+    "id": "agt_viral-tiktoks",
+    "name": "Viral TikToks",
+    "oneLiner": "Social & Content Marketing: Viral TikToks",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "HR & Recruiting",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "HTTP"
+    ],
+    "tags": [
+      "airtable",
+      "calendars",
+      "data etl",
+      "hr",
+      "http",
+      "image / video generation",
+      "social",
+      "tiktoks",
+      "viral"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/96132c56d5636d873cdb88f0032ca32f.json"
+  },
+  {
+    "id": "agt_voice-rag-agent",
+    "name": "Voice RAG Agent",
+    "oneLiner": "RAG / Knowledge Search: Voice RAG Agent",
+    "categories": [
+      "RAG / Knowledge Search",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Pinecone",
+      "Webhooks"
+    ],
+    "tags": [
+      "agent",
+      "internal notifications",
+      "openai",
+      "pinecone",
+      "rag",
+      "rag / knowledge search",
+      "voice",
+      "webhooks"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/1831e50239a60bd5dd3da9b9c1dc3e85.json"
+  },
+  {
+    "id": "agt_whatsapp-agent",
+    "name": "WhatsApp Agent",
+    "oneLiner": "Email Outreach: WhatsApp Agent",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "RAG / Knowledge Search",
+      "Image / Video Generation"
+    ],
+    "industries": [],
+    "tools": [
+      "HTTP",
+      "OpenAI",
+      "Pinecone",
+      "WhatsApp"
+    ],
+    "tags": [
+      "agent",
+      "chatbots",
+      "email outreach",
+      "http",
+      "image / video generation",
+      "openai",
+      "pinecone",
+      "rag / knowledge search",
+      "social",
+      "whatsapp"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/d4f101381e4cde0a2c89cb896e767528.json"
+  },
+  {
+    "id": "agt_youtube-content-idea-generator",
+    "name": "YouTube Content Idea Generator",
+    "oneLiner": "Social & Content Marketing: YouTube Content Idea Generator",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "YouTube"
+    ],
+    "tags": [
+      "content",
+      "data etl",
+      "generator",
+      "google sheets",
+      "http",
+      "idea",
+      "openai",
+      "social",
+      "youtube"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/467edf675c5c3039c6f39004225f1b2f.json"
+  },
+  {
+    "id": "agt_youtube-strategist",
+    "name": "YouTube Strategist",
+    "oneLiner": "Social & Content Marketing: YouTube Strategist",
+    "categories": [
+      "Social & Content Marketing",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "HR & Recruiting",
+      "Calendars & Meetings",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "Slack",
+      "YouTube"
+    ],
+    "tags": [
+      "calendars",
+      "data etl",
+      "google sheets",
+      "hr",
+      "http",
+      "image / video generation",
+      "internal notifications",
+      "openai",
+      "slack",
+      "social",
+      "strategist",
+      "youtube"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/839e611819f7c3ec5750a77d093430f0.json"
+  },
+  {
+    "id": "agt_get-calendar",
+    "name": "⚙️Get Calendar",
+    "oneLiner": "Email Outreach: ⚙️Get Calendar",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Analytics & Reporting",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI"
+    ],
+    "tags": [
+      "analytics",
+      "calendar",
+      "calendars",
+      "email outreach",
+      "get",
+      "gmail",
+      "openai",
+      "social"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/712a106326c2d94a9f2a6b25ce8b8571.json"
+  },
+  {
+    "id": "agt_scrape-demo",
+    "name": "🛠️Scrape Demo",
+    "oneLiner": "Data ETL & Scraping: 🛠️Scrape Demo",
+    "categories": [
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP"
+    ],
+    "tags": [
+      "data etl",
+      "demo",
+      "google sheets",
+      "http",
+      "scrape"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/7d5b13557184beb6ad4d42f86d7742b2.json"
+  },
+  {
+    "id": "agt_calendar-agent",
+    "name": "🤖 Calendar Agent",
+    "oneLiner": "Email Outreach: 🤖 Calendar Agent",
+    "categories": [
+      "Email Outreach",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "calendar",
+      "calendars",
+      "email outreach",
+      "gmail",
+      "openai"
+    ],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/6b109363800247f255a8cfa7a77bbf84.json"
+  },
+  {
+    "id": "agt_inbox-management-agent",
+    "name": "🤖 Inbox Management Agent",
+    "oneLiner": "Email Outreach: 🤖 Inbox Management Agent",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Analytics & Reporting",
+      "Finance & Invoicing"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "analytics",
+      "customer support",
+      "email outreach",
+      "finance",
+      "gmail",
+      "inbox",
+      "management",
+      "openai",
+      "social"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/dde7012b4b14b0bbecfe2cc918792322.json"
+  },
+  {
+    "id": "agt_telegram-ai-agent",
+    "name": "🤖 Telegram AI Agent",
+    "oneLiner": "Email Outreach: 🤖 Telegram AI Agent",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "RAG / Knowledge Search",
+      "Image / Video Generation",
+      "Calendars & Meetings"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI",
+      "Pinecone",
+      "Telegram"
+    ],
+    "tags": [
+      "agent",
+      "calendars",
+      "chatbots",
+      "email outreach",
+      "gmail",
+      "image / video generation",
+      "openai",
+      "pinecone",
+      "rag / knowledge search",
+      "social",
+      "telegram"
+    ],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/ba09c43881c533162179f4837aded97a.json"
+  },
+  {
+    "id": "agt_customer-support-email-agent",
+    "name": "🤖Customer Support Email Agent",
+    "oneLiner": "Email Outreach: 🤖Customer Support Email Agent",
+    "categories": [
+      "Email Outreach",
+      "Social & Content Marketing",
+      "Customer Support & Helpdesk",
+      "Chatbots & WhatsApp",
+      "RAG / Knowledge Search"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI",
+      "Pinecone",
+      "Telegram"
+    ],
+    "tags": [
+      "agent",
+      "chatbots",
+      "customer",
+      "customer support",
+      "email",
+      "email outreach",
+      "gmail",
+      "openai",
+      "pinecone",
+      "rag / knowledge search",
+      "social",
+      "support",
+      "telegram"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/30980e980449de82bb3d1c984e3c5394.json"
+  },
+  {
+    "id": "agt_invoice-agent",
+    "name": "🤖Invoice Agent",
+    "oneLiner": "Social & Content Marketing: 🤖Invoice Agent",
+    "categories": [
+      "Social & Content Marketing",
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping",
+      "Image / Video Generation",
+      "Finance & Invoicing"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "HTTP",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [
+      "agent",
+      "chatbots",
+      "data etl",
+      "finance",
+      "google sheets",
+      "http",
+      "image / video generation",
+      "invoice",
+      "openai",
+      "social",
+      "telegram"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/0943f041430e61cf9f324059d77e539f.json"
+  },
+  {
+    "id": "agt_rag-agent-demo",
+    "name": "🤖RAG Agent Demo",
+    "oneLiner": "RAG / Knowledge Search: 🤖RAG Agent Demo",
+    "categories": [
+      "RAG / Knowledge Search"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI"
+    ],
+    "tags": [
+      "agent",
+      "demo",
+      "openai",
+      "rag",
+      "rag / knowledge search"
+    ],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "configUrl": "sandbox:/mnt/data/agent_configs/840b169868bbf2c096e4e72ecdcbb675.json"
+  }
+]

@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-plus-jakarta: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbar for horizontal scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus states */
+*:focus-visible {
+  outline: 2px solid #FF3CAC;
+  outline-offset: 2px;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom noise texture (optional) */
+.noise::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Network animation styles */
+.network-animation {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.network-node {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: radial-gradient(circle, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  border-radius: 50%;
+  opacity: 0;
+  animation: nodeFloat infinite ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 60, 172, 0.5);
+}
+
+.network-node:nth-child(3n) {
+  background: radial-gradient(circle, #2B86C5 0%, #784BA0 50%, #FF3CAC 100%);
+  box-shadow: 0 0 10px rgba(43, 134, 197, 0.5);
+}
+
+.network-node:nth-child(5n) {
+  background: radial-gradient(circle, #784BA0 0%, #FF3CAC 50%, #2B86C5 100%);
+  box-shadow: 0 0 10px rgba(120, 75, 160, 0.5);
+  width: 6px;
+  height: 6px;
+}
+
+.network-line {
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 60, 172, 0.3) 20%, rgba(120, 75, 160, 0.5) 50%, rgba(43, 134, 197, 0.3) 80%, transparent 100%);
+  opacity: 0;
+  animation: lineGlow infinite ease-in-out;
+  transform-origin: left center;
+}
+
+.network-line:nth-child(2n) {
+  background: linear-gradient(90deg, transparent 0%, rgba(43, 134, 197, 0.3) 20%, rgba(255, 60, 172, 0.5) 50%, rgba(120, 75, 160, 0.3) 80%, transparent 100%);
+}
+
+.network-line:nth-child(3n) {
+  width: 150px;
+  background: linear-gradient(90deg, transparent 0%, rgba(120, 75, 160, 0.2) 30%, rgba(255, 60, 172, 0.4) 50%, rgba(43, 134, 197, 0.2) 70%, transparent 100%);
+}
+
+@keyframes nodeFloat {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(0px) scale(0.8);
+  }
+  25% {
+    opacity: 0.6;
+    transform: translateY(-20px) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-10px) scale(1.2);
+  }
+  75% {
+    opacity: 0.8;
+    transform: translateY(-30px) scale(1);
+  }
+}
+
+@keyframes lineGlow {
+  0%, 100% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  25% {
+    opacity: 0.4;
+    transform: scaleX(0.6);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scaleX(1);
+  }
+  75% {
+    opacity: 0.6;
+    transform: scaleX(0.8);
+  }
+}
+
+/* Responsive adjustments for network animation */
+@media (max-width: 768px) {
+  .network-node {
+    width: 3px;
+    height: 3px;
+  }
+  
+  .network-node:nth-child(5n) {
+    width: 4px;
+    height: 4px;
+  }
+  
+  .network-line {
+    width: 60px;
+  }
+  
+  .network-line:nth-child(3n) {
+    width: 80px;
+  }
+}

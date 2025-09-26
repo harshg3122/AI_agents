@@ -1,0 +1,150 @@
+[
+  {
+    "id": "agt_whatsapp-gmail-openai-pinecone-telegram",
+    "name": "WhatsApp Gmail OpenAI Pinecone Telegram",
+    "oneLiner": "Chatbots & WhatsApp: WhatsApp Gmail OpenAI Pinecone Telegram",
+    "categories": [
+      "Chatbots & WhatsApp",
+      "RAG / Knowledge Search"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI",
+      "Pinecone",
+      "Telegram"
+    ],
+    "tags": [],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "prerequisites": ["Gmail account", "OpenAI API key", "Pinecone account", "Telegram bot token"],
+    "description": "Comprehensive WhatsApp chatbot that integrates with Gmail for email management, uses OpenAI for intelligent responses, Pinecone for knowledge search, and Telegram for notifications.",
+    "configUrl": "sandbox:/mnt/data/agent_configs/30980e980449de82bb3d1c984e3c5394.json"
+  },
+  {
+    "id": "agt_gmail-hubspot-openai",
+    "name": "Gmail HubSpot OpenAI",
+    "oneLiner": "Email Outreach: Gmail HubSpot OpenAI",
+    "categories": [
+      "Email Outreach",
+      "Sales & CRM Ops"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "HubSpot",
+      "OpenAI"
+    ],
+    "tags": [],
+    "docScore": 86,
+    "setupTimeMins": 45,
+    "prerequisites": ["Gmail account", "HubSpot account", "OpenAI API key"],
+    "description": "Automated email outreach system that integrates Gmail with HubSpot CRM and uses OpenAI for personalized email generation and response handling.",
+    "configUrl": "sandbox:/mnt/data/agent_configs/5c0c3f7a55a9f7c7d6d6d20cb1f0f1c2.json"
+  },
+  {
+    "id": "agt_airtable-openai-telegram",
+    "name": "Airtable OpenAI Telegram",
+    "oneLiner": "Data ETL & Scraping: Airtable OpenAI Telegram",
+    "categories": [
+      "Data ETL & Scraping",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "OpenAI",
+      "Telegram"
+    ],
+    "tags": [],
+    "docScore": 84,
+    "setupTimeMins": 45,
+    "prerequisites": ["Airtable account", "OpenAI API key", "Telegram bot token"],
+    "description": "Data processing agent that extracts and transforms data in Airtable, uses OpenAI for intelligent data analysis, and sends notifications via Telegram.",
+    "configUrl": "sandbox:/mnt/data/agent_configs/10e3fcbdd5f3c6a8f7a3c3a6c5e9a1b0.json"
+  },
+  {
+    "id": "agt_gmail-openai-slack",
+    "name": "Gmail OpenAI Slack",
+    "oneLiner": "Internal Notifications & Alerts: Gmail OpenAI Slack",
+    "categories": [
+      "Internal Notifications & Alerts",
+      "Email Outreach"
+    ],
+    "industries": [],
+    "tools": [
+      "Gmail",
+      "OpenAI",
+      "Slack"
+    ],
+    "tags": [],
+    "docScore": 83,
+    "setupTimeMins": 45,
+    "prerequisites": ["Gmail account", "OpenAI API key", "Slack workspace"],
+    "description": "Email monitoring and notification system that processes Gmail messages with OpenAI and sends intelligent alerts to Slack channels.",
+    "configUrl": "sandbox:/mnt/data/agent_configs/1a4b0e9c2f3d5e7a8b9c0d1e2f3a4b5c.json"
+  },
+  {
+    "id": "agt_google-sheets-openai-whatsapp",
+    "name": "Google Sheets OpenAI WhatsApp",
+    "oneLiner": "Chatbots & WhatsApp: Google Sheets OpenAI WhatsApp",
+    "categories": [
+      "Chatbots & WhatsApp",
+      "Data ETL & Scraping"
+    ],
+    "industries": [],
+    "tools": [
+      "Google Sheets",
+      "OpenAI",
+      "WhatsApp"
+    ],
+    "tags": [],
+    "docScore": 85,
+    "setupTimeMins": 45,
+    "prerequisites": ["Google Sheets access", "OpenAI API key", "WhatsApp Business account"],
+    "description": "WhatsApp chatbot that integrates with Google Sheets for data storage and retrieval, powered by OpenAI for intelligent conversations.",
+    "configUrl": "sandbox:/mnt/data/agent_configs/21d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7.json"
+  },
+  {
+    "id": "agt_openai-pinecone-slack",
+    "name": "OpenAI Pinecone Slack",
+    "oneLiner": "RAG / Knowledge Search: OpenAI Pinecone Slack",
+    "categories": [
+      "RAG / Knowledge Search",
+      "Internal Notifications & Alerts"
+    ],
+    "industries": [],
+    "tools": [
+      "OpenAI",
+      "Pinecone",
+      "Slack"
+    ],
+    "tags": [],
+    "docScore": 88,
+    "setupTimeMins": 45,
+    "prerequisites": ["OpenAI API key", "Pinecone account", "Slack workspace"],
+    "description": "Knowledge search system that uses OpenAI and Pinecone for semantic search and delivers answers directly in Slack channels.",
+    "configUrl": "sandbox:/mnt/data/agent_configs/26e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1.json"
+  },
+  {
+    "id": "agt_airtable-gmail-openai",
+    "name": "Airtable Gmail OpenAI",
+    "oneLiner": "Data ETL & Scraping: Airtable Gmail OpenAI",
+    "categories": [
+      "Data ETL & Scraping",
+      "Email Outreach"
+    ],
+    "industries": [],
+    "tools": [
+      "Airtable",
+      "Gmail",
+      "OpenAI"
+    ],
+    "tags": [],
+    "docScore": 84,
+    "setupTimeMins": 45,
+    "prerequisites": ["Airtable account", "Gmail account", "OpenAI API key"],
+    "description": "Data synchronization agent that connects Airtable databases with Gmail for automated email campaigns and data collection.",
+    "configUrl": "sandbox:/mnt/data/agent_configs/2b5c6d7e8f9012a3b4c5d6e7f8a9b0c1.json"
+  }
+]
