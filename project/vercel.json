@@ -1,5 +1,10 @@
 {
-  "buildCommand": "npm run build",
+  "version": 2,
+  "framework": "nextjs",
+  "buildCommand": "npm install --force && npm run build",
+  "installCommand": "npm install --no-audit --no-fund",
   "outputDirectory": ".next",
-  "installCommand": "npm install --no-audit --no-fund"
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
