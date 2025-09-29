@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ai-agents.netlify.app"),
   title: "AI Agents - Find the Right Agent for Your Business",
   description:
     "Discover curated AI agents with ready JSON configs. Smart search matches your business needs with the perfect automation solution.",
@@ -11,6 +12,21 @@ export const metadata: Metadata = {
     title: "AI Agents - Find the Right Agent for Your Business",
     description: "Discover curated AI agents with ready JSON configs.",
     type: "website",
+    url: "https://ai-agents.netlify.app",
+    siteName: "AI Agents",
+    images: [
+      {
+        url: "https://ai-agents.netlify.app/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Agents - Find the Right Agent for Your Business",
+    description: "Discover curated AI agents with ready JSON configs.",
+    images: ["https://ai-agents.netlify.app/og-image.png"],
   },
 };
 
