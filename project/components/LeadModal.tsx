@@ -45,30 +45,51 @@ export function LeadModal({ agent, isOpen, onClose }: LeadModalProps) {
 
     setIsSubmitting(true);
     try {
-      const response = await fetch("/api/lead", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...data,
-          agentId: agent.id,
-          query: "", // Could be passed from search context
-        }),
+      // Simulate form submission (replace with your actual form handling)
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      toast({
+        title: "Success!",
+        description: "Your download will begin shortly.",
       });
 
-      if (response.ok) {
-        toast({
-          title: "Success!",
-          description: "Your download will begin shortly.",
-        });
+      // Create and download the agent JSON
+      const agentData = {
+        id: agent.id,
+        name: agent.name,
+        oneLiner: agent.oneLiner,
+        description: agent.description,
+        tags: agent.tags,
+        categories: agent.categories,
+        tools: agent.tools,
+        config: agent.config,
+        docScore: agent.docScore,
+        // Add form data
+        leadInfo: {
+          name: data.name,
+          company: data.company,
+          email: data.email,
+          phone: data.phone,
+          submittedAt: new Date().toISOString(),
+        },
+      };
 
-        // Trigger download
-        window.open(`/api/download?id=${agent.id}`, "_blank");
+      const blob = new Blob([JSON.stringify(agentData, null, 2)], {
+        type: "application/json",
+      });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${agent.name
+        .replace(/\s+/g, "-")
+        .toLowerCase()}-config.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
 
-        reset();
-        onClose();
-      } else {
-        throw new Error("Failed to submit");
-      }
+      reset();
+      onClose();
     } catch (error) {
       toast({
         title: "Error",
