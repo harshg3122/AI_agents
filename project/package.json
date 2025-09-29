@@ -72,7 +72,6 @@
     "zod": "^4.1.11"
   },
   "devDependencies": {
-    "@next/env": "13.5.1",
-    "@netlify/plugin-nextjs": "^4.41.3"
+    "@next/env": "13.5.1"
   }
 }
