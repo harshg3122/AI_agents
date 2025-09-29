@@ -62,7 +62,7 @@ export function LeadModal({ agent, isOpen, onClose }: LeadModalProps) {
         tags: agent.tags,
         categories: agent.categories,
         tools: agent.tools,
-        config: agent.config,
+        configUrl: agent.configUrl,
         docScore: agent.docScore,
         // Add form data
         leadInfo: {
