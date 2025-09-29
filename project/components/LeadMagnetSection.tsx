@@ -1,38 +1,36 @@
-"use client"
+"use client";
 
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { ArrowRight, Mail } from 'lucide-react';
-import { useToast } from './ui/toast';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { ArrowRight, Mail } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 export function LeadMagnetSection() {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const { addToast } = useToast();
+  const { toast } = useToast();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!email.trim()) return;
-    
+
     setIsSubmitting(true);
-    
+
     try {
       // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      addToast({
-        type: 'success',
-        title: 'Success!',
-        description: 'Check your email for your personalized agent shortlist.'
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      toast({
+        title: "Success!",
+        description: "Check your email for your personalized agent shortlist.",
       });
-      
-      setEmail('');
+
+      setEmail("");
     } catch (error) {
-      addToast({
-        type: 'error',
-        title: 'Error',
-        description: 'Something went wrong. Please try again.'
+      toast({
+        title: "Error",
+        description: "Something went wrong. Please try again.",
       });
     } finally {
       setIsSubmitting(false);
@@ -48,7 +46,7 @@ export function LeadMagnetSection() {
       >
         {/* Background glow */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#FF3CAC]/5 via-[#784BA0]/5 to-[#2B86C5]/5" />
-        
+
         <div className="relative z-10 flex flex-col items-center text-center gap-6 p-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -59,7 +57,8 @@ export function LeadMagnetSection() {
               Get a tailored shortlist in 30 seconds
             </h2>
             <p className="text-lg text-white/80">
-              Enter your email and get a curated list of the 5 best agents for your specific business needs.
+              Enter your email and get a curated list of the 5 best agents for
+              your specific business needs.
             </p>
           </motion.div>
 
@@ -81,7 +80,7 @@ export function LeadMagnetSection() {
                 required
               />
             </div>
-            
+
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -89,13 +88,13 @@ export function LeadMagnetSection() {
               disabled={isSubmitting}
               className="flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#FF3CAC] via-[#784BA0] to-[#2B86C5] px-6 py-3 font-medium text-white shadow-lg hover:shadow-xl disabled:opacity-50 sm:w-auto w-full"
             >
-              {isSubmitting ? 'Sending...' : 'Get Shortlist'}
+              {isSubmitting ? "Sending..." : "Get Shortlist"}
               {!isSubmitting && <ArrowRight className="h-4 w-4" />}
             </motion.button>
           </motion.form>
 
           <p className="text-xs text-white/60 max-w-md">
-            No spam, ever. Just the best AI agents for your specific needs, 
+            No spam, ever. Just the best AI agents for your specific needs,
             delivered to your inbox within minutes.
           </p>
         </div>
